@@ -1,6 +1,46 @@
 Fake News Detection
 ===================
 
+File structure
+--------------
+
+.
+├── Fake News Detection.pdf
+
+├── notebooks
+
+│   ├── data
+
+│   │   ├── clean_data.py
+
+│   │   ├── __init__.py
+
+│   │   ├── load_data.py
+
+│   │   ├── test2.tsv
+
+│   │   ├── train2.tsv
+
+│   │   └── val2.tsv
+
+│   ├── data_visualization.ipynb
+
+│   ├── model_comparision.ipynb
+
+│   └── models
+
+│       ├── __init__.py
+
+│       ├── SMJ.py
+
+│       ├── SM.py
+
+│       └── S.py
+
+├── README.md
+
+└── requirements.txt
+
 How to Run
 ----------
 
@@ -18,6 +58,7 @@ Highest Accuracy
 ----------------
 
 Six way classification: 0.2646 (Logistic Regression with statements and metadata)
+
 Binary classification : 0.6508 (Deep Neural Network with statements, metadata and justification)
 
 Data Preprocessing
