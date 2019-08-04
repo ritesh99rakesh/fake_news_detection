@@ -1,0 +1,7 @@
+python-3.6
+jupyter notebook
+keras
+nltk
+pandas
+sklear
+matplotlib
